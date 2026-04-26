@@ -150,25 +150,7 @@ if (event.type === "event") {
       const name = user.fullName || "New Member";
       const uid = user.userFbId;
 
-      const welcomeMsg = `
-╔═══━━━  🎎🎀  ━━━═══╗
-
-         👑  𝓦𝓔𝓛𝓒𝓞𝓜𝓔  👑
-
-        💖 𝓗𝓮𝓵𝓵𝓸 @${name}
-
-✨ You are now a precious part
-   of our beautiful family 💞
-
-🌟 Stay active, stay positive
-   and enjoy your time here 💕
-
-📌 Respect Everyone | No Drama
-
-💎 Have a lovely stay 💎
-
-╚═══━━━  ᥫ᭡‿︵━━━═══╝
-`;
+      const welcomeMsg = ``;
 
       const mentionIndex = welcomeMsg.indexOf(`@${name}`);
 
